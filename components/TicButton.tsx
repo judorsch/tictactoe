@@ -18,7 +18,7 @@ export const TicButton = ({change}: {change: (text: string) => void}, {text2}: {
         change("Player X Turn")
     }
     else{
-      change("Player Y Turn")
+      change("Player O Turn")
     }
 
   }
